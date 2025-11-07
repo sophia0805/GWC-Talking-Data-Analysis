@@ -5,7 +5,7 @@ a = Analysis(
     ['Talking Data Starter Code.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('rotten_tomatoes_movies.csv', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
